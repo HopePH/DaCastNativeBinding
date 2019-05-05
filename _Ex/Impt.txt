@@ -1,0 +1,5 @@
+alfon
+unit test java
+
+==impt==
+1. kunin mo da jar release here C:\_Work.Dir.DaCastBindings\_Ex\JavaNative\sayhello\release

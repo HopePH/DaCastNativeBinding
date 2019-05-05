@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void shoutHello(View view) {
         //Toast.makeText(getApplicationContext(),"Put here the toast of Java Lib soon",Toast.LENGTH_SHORT).show();
         //Shouter shouter; // = new Shouter(getApplicationContext());
-        Shouter shouter = new Shouter(getApplicationContext());
+        Shouter shouter = new Shouter(this);
         shouter.ShoutHello(true);
     }
 }

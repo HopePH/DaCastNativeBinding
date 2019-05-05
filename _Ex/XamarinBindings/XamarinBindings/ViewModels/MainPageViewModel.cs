@@ -21,6 +21,6 @@ namespace XamarinBindings.ViewModels
         }
 
         private void ShoutIt()
-            => _shouter.ShoutIt(true);
+            => _shouter.ShoutIt();
     }
 }

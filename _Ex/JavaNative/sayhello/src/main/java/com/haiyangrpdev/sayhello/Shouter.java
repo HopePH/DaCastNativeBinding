@@ -23,11 +23,11 @@ public class Shouter {
     public void ShoutHello(boolean isToast){
 
         if (isToast)
-            Toast.makeText(this._context,"Put here the toast of Java Lib soon",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this._context,"This toast is from java code!",Toast.LENGTH_SHORT).show();
         else {
             AlertDialog alertDialog = new AlertDialog.Builder(this._context).create();
             alertDialog.setTitle("Alert");
-            alertDialog.setMessage("Alert message to be shown");
+            alertDialog.setMessage("This alert is from java code!");
             alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {

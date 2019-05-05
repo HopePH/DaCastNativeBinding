@@ -2,6 +2,6 @@
 {
     public interface IShouterUtil
     {
-        void ShoutIt(bool isToast);
+        void ShoutIt();
     }
 }

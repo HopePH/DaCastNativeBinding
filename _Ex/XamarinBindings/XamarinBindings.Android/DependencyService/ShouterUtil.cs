@@ -1,6 +1,5 @@
 ﻿using Com.Haiyangrpdev.Sayhello;
 using Plugin.CurrentActivity;
-using System;
 using Xamarin.Forms;
 using XamarinBindings.Utility;
 
@@ -9,18 +8,16 @@ namespace XamarinBindings.Droid.DependencyService
 {
     public class ShouterUtil : IShouterUtil
     {
-        public void ShoutIt(bool isToast)
+        private bool _isToast = true;
+        public void ShoutIt()
         {
             try
             {
-                var context = CrossCurrentActivity.Current.Activity;
-                Shouter shout = new Shouter(context);
-                shout.ShoutHello(isToast);
+                var activity = CrossCurrentActivity.Current.Activity;
+                Shouter shout = new Shouter(activity);
+                shout.ShoutHello(_isToast);
             }
-            catch (Exception ex)
-            {
-                //log here...
-            }
+            catch { }
         }
     }
 }

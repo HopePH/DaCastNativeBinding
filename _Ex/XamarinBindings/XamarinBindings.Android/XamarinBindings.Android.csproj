@@ -55,6 +55,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Plugin.CurrentActivity">
+      <Version>2.1.0.4</Version>
+    </PackageReference>
     <PackageReference Include="Prism.Unity.Forms" Version="7.1.0.431" />
     <PackageReference Include="Xamarin.Android.Support.Design">
       <Version>28.0.0.1</Version>
@@ -76,6 +79,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DependencyService\ShouterUtil.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -102,6 +106,10 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\JavaSimpleBinding\JavaSimpleBinding.csproj">
+      <Project>{462faff2-a11e-4049-b110-f4405ebd975b}</Project>
+      <Name>JavaSimpleBinding</Name>
+    </ProjectReference>
     <ProjectReference Include="..\XamarinBindings\XamarinBindings.csproj">
       <Project>{A682884C-CB44-4A89-B752-27BB634E0ABE}</Project>
       <Name>XamarinBindings</Name>

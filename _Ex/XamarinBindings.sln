@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinBindings.iOS", "Xama
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaSimpleBinding", "JavaSimpleBinding\JavaSimpleBinding.csproj", "{462FAFF2-A11E-4049-B110-F4405EBD975B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Native", "Native", "{D0D57D42-6916-4EEB-A685-42937F5E1840}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{2A6703D4-A973-405E-BA32-E6B3DF83C658}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -134,6 +138,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6043FB75-C540-4D73-9DB7-2C54C4EDAB7D} = {2A6703D4-A973-405E-BA32-E6B3DF83C658}
+		{1FDA3C16-4E49-4219-B33E-99323237E212} = {2A6703D4-A973-405E-BA32-E6B3DF83C658}
+		{C9DBF18F-03AE-4799-B206-C47A7C00DB3C} = {2A6703D4-A973-405E-BA32-E6B3DF83C658}
+		{462FAFF2-A11E-4049-B110-F4405EBD975B} = {D0D57D42-6916-4EEB-A685-42937F5E1840}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E4ECCD5-0F4B-4261-94F7-2E3A6AD5C49B}

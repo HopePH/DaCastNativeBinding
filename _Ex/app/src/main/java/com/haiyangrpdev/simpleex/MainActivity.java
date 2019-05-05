@@ -1,4 +1,5 @@
 package com.haiyangrpdev.simpleex;
+//package com.haiyangrpdev.sayhello;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void shoutHello(View view) {
-        Toast.makeText(getApplicationContext(),"Put here the toast of Java Lib soon",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(),"Put here the toast of Java Lib soon",Toast.LENGTH_SHORT).show();
+        //Shouter shouter = new Shouter(getApplicationContext());
+
+
     }
 }

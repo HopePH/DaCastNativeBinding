@@ -1,9 +1,13 @@
+package com.haiyangrpdev.sayhello;
+
 import android.content.Context;
 import android.widget.Toast;
 
 public class Shouter {
 
     private Context _context;
+
+    public Shouter() {}
 
     public Shouter(Context context){
         _context = context;
